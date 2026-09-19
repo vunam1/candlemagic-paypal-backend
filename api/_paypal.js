@@ -8,7 +8,7 @@ export const PRICE_BY_QTY = {
   3: '21.00',
   4: '24.00'
 };
-
+export const SHIPPING_USD = 6.00;
 export function expectedAmount(quantity) {
   return PRICE_BY_QTY[Number(quantity)] || null;
 }
