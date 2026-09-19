@@ -3,7 +3,7 @@ import crypto from 'node:crypto';
 const LIVE_BASE = 'https://api-m.paypal.com';
 
 export const PRICE_BY_QTY = {
-  1: '1.00',
+  1: '9.00',
   2: '16.00',
   3: '21.00',
   4: '24.00'
